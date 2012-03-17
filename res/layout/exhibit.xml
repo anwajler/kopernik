@@ -150,7 +150,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/pathChooser"
-        android:text="x" />
+        android:layout_margin="10dp"
+        android:background="@drawable/exit" />
 
     <Button
         android:id="@+id/pathChooser"
@@ -158,6 +159,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:text="y" />
+        android:layout_margin="10dp"
+        android:background="@drawable/arrow_up" />
 
 </RelativeLayout>
