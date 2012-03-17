@@ -13,7 +13,7 @@ public class KopernikActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
-        ctx = this;        
+        ctx = this;
     }
     
     public void goToExhibit(View v) {
