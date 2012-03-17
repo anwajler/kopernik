@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:id="@+id/header"
+        style="@style/PathInfoHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:padding="10dp"
+        android:text="@string/pathInfoHeader" />
+
+    <ScrollView
+        android:id="@+id/pathInfoDescription"
+        android:layout_width="fill_parent"
+        android:layout_height="300dp"
+        android:layout_below="@+id/header"
+        android:scrollbars="vertical" >
+
+        <TextView
+            style="@style/PathInfoDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/pathInfoDescription" />
+    </ScrollView>
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pathInfoStartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pathInfoDescription"
+        android:text="@string/pathInfoStartButton"
+        android:clickable="true"
+        android:onClick="beginPath" />
+
+</RelativeLayout>

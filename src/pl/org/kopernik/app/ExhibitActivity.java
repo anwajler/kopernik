@@ -6,18 +6,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class KopernikActivity extends Activity {
+public class ExhibitActivity extends Activity {
 	Context ctx;
+	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
-        ctx = this;        
+        setContentView(R.layout.exhibit_description);
+        ctx = this;
     }
     
-    public void goToExhibit(View v) {
-    	Intent i = new Intent(ctx, PathActivity.class);
-    	startActivity(i);
+    public void goFurther(View v) {
+    	Intent i = new Intent(ctx, ExhibitActivity.class);
+    	startActivity(i);    	
     }
 }

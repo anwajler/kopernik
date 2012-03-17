@@ -1,12 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:layout_height="fill_parent" >
 
     <TextView
-        android:layout_width="fill_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:layout_centerHorizontal="true"
+        android:text="@string/welcomeHeader"
+        android:padding="10dp"
+        style="@style/WelcomeScreenHeader"
+        android:id="@+id/header" />
 
-</LinearLayout>
+    <RelativeLayout
+        android:layout_centerInParent="true"        
+        android:layout_width="270dp"
+        android:layout_height="130dp"
+        android:padding="10dp">
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/top_left"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="goToExhibit"
+            android:text="@string/welcomeWaterPathName" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"            
+            android:id="@+id/top_right"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="goToExhibit"            
+            android:text="@string/welcomeFirePathName" />
+
+        <Button
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"            
+            android:id="@+id/bottom_left"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="goToExhibit"            
+            android:text="@string/welcomeEarthPathName" />
+
+        <Button
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"            
+            android:id="@+id/bottom_right"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="goToExhibit"            
+            android:text="@string/welcomeAirPathName" />
+    </RelativeLayout>
+</RelativeLayout>

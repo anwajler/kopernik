@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, KopernikActivity!</string>
-    <string name="app_name">Kopernik</string>
+    <string name="app_name">M$ Kopernik Explorer 9.0</string>
 
+    <!-- welcome screen -->
+    <string name="welcomeHeader">Wybierz ścieżkę</string>
+    <string name="welcomeWaterPathName">Woda</string>
+    <string name="welcomeFirePathName">Ogień</string>
+    <string name="welcomeEarthPathName">Ziemia</string>
+    <string name="welcomeAirPathName">Powietrze</string>        
+    
+    <!-- path info -->    
+    <string name="pathInfoHeader">Opis wybranej ścieżki</string>
+    <string name="pathInfoDescription">Koralowce czteropromienne, rugozy (Rugosa) – grupa paleozoicznych koralowców kolonijnych (kolonie masywne lub gałązkowe) albo osobniczych. Osobnicze mają kształt rogu lub cylindryczny. We wczesnym stadium rozwojowym powstają trzy pary septów. Pierwsza para to septum główne. Kolejno tworzą się następne dwie pary. Trzy pary septów dzielą kielich koralowca na sześć komór. Jednak dalsze septa tworzą się tylko w czterech komorach. Dlatego nazywa się je koralowcami czteropromiennymi.
+Rugozy znane są od ordowiku do późnego permu. Swój rozkwit osiągnęły w dewonie i wczesnym karbonie. Miały duże znaczenie skałotwórcze, stanowią ważny składnik dewońskich i karbońskich wapieni rafowych.</string>
+	<string name="pathInfoStartButton">Zaczynam</string>    
+    
+	<!-- exhibit info -->
+	    <string name="exhibitName">Super eksponat</string>
+	    <string name="exhibitGalleryName">galeria Świat w Ruchu</string>
+	    <string name="exhibitDescription">Koralowce czteropromienne, rugozy (Rugosa) – grupa paleozoicznych koralowców kolonijnych (kolonie masywne lub gałązkowe) albo osobniczych. Osobnicze mają kształt rogu lub cylindryczny. We wczesnym stadium rozwojowym powstają trzy pary septów. Pierwsza para to septum główne. Kolejno tworzą się następne dwie pary. Trzy pary septów dzielą kielich koralowca na sześć komór. Jednak dalsze septa tworzą się tylko w czterech komorach. Dlatego nazywa się je koralowcami czteropromiennymi.
+Rugozy znane są od ordowiku do późnego permu. Swój rozkwit osiągnęły w dewonie i wczesnym karbonie. Miały duże znaczenie skałotwórcze, stanowią ważny składnik dewońskich i karbońskich wapieni rafowych.</string>
+	    <string name="exhibitDetailsBtn">Przejdź do szczegółów</string>
+	    <string name="exhibitQuestion">Kiedy pojawia się pierwszy przebiśnieg?</string>
+	    <string name="exhibitAnswer">1. marca</string>
 </resources>
