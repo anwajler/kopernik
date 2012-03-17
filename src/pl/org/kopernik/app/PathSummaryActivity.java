@@ -6,24 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ExhibitActivity extends Activity {
+public class PathSummaryActivity extends Activity {
 	Context ctx;
 	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.exhibit);
+        setContentView(R.layout.path_summary);
         ctx = this;
     }
-    
-    public void goFurther(View v) {
-    	Intent i = new Intent(ctx, PathSummaryActivity.class);
-    	startActivity(i);    	
-    }
-    
-    public void goToDetails(View v) {
-    	Intent i = new Intent(ctx, ExhibitDetailsActivity.class);
-    	startActivity(i);    	
-    }    
 }

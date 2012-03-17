@@ -8,20 +8,29 @@
     <string name="welcomeWaterPathName">Woda</string>
     <string name="welcomeFirePathName">Ogień</string>
     <string name="welcomeEarthPathName">Ziemia</string>
-    <string name="welcomeAirPathName">Powietrze</string>        
-    
-    <!-- path info -->    
+    <string name="welcomeAirPathName">Powietrze</string>
+
+    <!-- path info -->
     <string name="pathInfoHeader">Opis wybranej ścieżki</string>
     <string name="pathInfoDescription">Koralowce czteropromienne, rugozy (Rugosa) – grupa paleozoicznych koralowców kolonijnych (kolonie masywne lub gałązkowe) albo osobniczych. Osobnicze mają kształt rogu lub cylindryczny. We wczesnym stadium rozwojowym powstają trzy pary septów. Pierwsza para to septum główne. Kolejno tworzą się następne dwie pary. Trzy pary septów dzielą kielich koralowca na sześć komór. Jednak dalsze septa tworzą się tylko w czterech komorach. Dlatego nazywa się je koralowcami czteropromiennymi.
 Rugozy znane są od ordowiku do późnego permu. Swój rozkwit osiągnęły w dewonie i wczesnym karbonie. Miały duże znaczenie skałotwórcze, stanowią ważny składnik dewońskich i karbońskich wapieni rafowych.</string>
-	<string name="pathInfoStartButton">Zaczynam</string>    
-    
-	<!-- exhibit info -->
-	    <string name="exhibitName">Super eksponat</string>
-	    <string name="exhibitGalleryName">galeria Świat w Ruchu</string>
-	    <string name="exhibitDescription">Koralowce czteropromienne, rugozy (Rugosa) – grupa paleozoicznych koralowców kolonijnych (kolonie masywne lub gałązkowe) albo osobniczych. Osobnicze mają kształt rogu lub cylindryczny. We wczesnym stadium rozwojowym powstają trzy pary septów. Pierwsza para to septum główne. Kolejno tworzą się następne dwie pary. Trzy pary septów dzielą kielich koralowca na sześć komór. Jednak dalsze septa tworzą się tylko w czterech komorach. Dlatego nazywa się je koralowcami czteropromiennymi.
+    <string name="pathInfoStartButton">Zaczynam</string>
+
+    <!-- exhibit info -->
+    <string name="exhibitName">Super eksponat</string>
+    <string name="exhibitGalleryName">galeria Świat w Ruchu</string>
+    <string name="exhibitDescription">Koralowce czteropromienne, rugozy (Rugosa) – grupa paleozoicznych koralowców kolonijnych (kolonie masywne lub gałązkowe) albo osobniczych. Osobnicze mają kształt rogu lub cylindryczny. We wczesnym stadium rozwojowym powstają trzy pary septów. Pierwsza para to septum główne. Kolejno tworzą się następne dwie pary. Trzy pary septów dzielą kielich koralowca na sześć komór. Jednak dalsze septa tworzą się tylko w czterech komorach. Dlatego nazywa się je koralowcami czteropromiennymi.
 Rugozy znane są od ordowiku do późnego permu. Swój rozkwit osiągnęły w dewonie i wczesnym karbonie. Miały duże znaczenie skałotwórcze, stanowią ważny składnik dewońskich i karbońskich wapieni rafowych.</string>
-	    <string name="exhibitDetailsBtn">Przejdź do szczegółów</string>
-	    <string name="exhibitQuestion">Kiedy pojawia się pierwszy przebiśnieg?</string>
-	    <string name="exhibitAnswer">1. marca</string>
+    <string name="exhibitDetailsBtn">Przejdź do szczegółów</string>
+    <string name="exhibitQuestion">Kiedy pojawia się pierwszy przebiśnieg?</string>
+    <string name="exhibitAnswer">1. marca</string>
+
+    <!-- path begin -->
+    <string name="pathBeginInfo">Wejdź po schodach na górę, na pierwszym piętrze skręć w lewo i podejdź do wielkiej czerwonej piłki.</string>
+
+    <!-- path summary -->
+    <string name="pathSummaryInfo">Koniec ścieżki.</string>
+	<string name="pathSummarySummary">Podsumowanie.</string>
+    
+    
 </resources>

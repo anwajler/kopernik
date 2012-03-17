@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/header"
+            style="@style/PathInfoHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="@string/pathSummaryInfo" />
+
+        <TextView
+            android:id="@+id/summary"
+            style="@style/PathInfoHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/header"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="@string/pathSummarySummary" />
+
+        <TextView
+            android:id="@+id/result"
+            style="@style/PathInfoHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/summary"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="5/25" />
+
+        <Button
+            android:id="@+id/pathInfoStartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/result"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="Och, wyszeruj mnie proszę!" />
+    </RelativeLayout>
+
+</ScrollView>

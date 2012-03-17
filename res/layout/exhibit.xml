@@ -1,39 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:background="#ffffff" >
 
     <TextView
-        android:id="@+id/header"
-        style="@style/PathInfoHeader"
+        android:id="@+id/name"
+        style="@style/ExhibitName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:padding="10dp"
-        android:text="@string/pathInfoHeader" />
+        android:text="@string/exhibitName" />
 
-    <ScrollView
-        android:id="@+id/pathInfoDescription"
-        android:layout_width="fill_parent"
-        android:layout_height="300dp"
-        android:layout_below="@+id/header"
-        android:scrollbars="vertical" >
-
-        <TextView
-            style="@style/PathInfoDescription"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/pathInfoDescription" />
-    </ScrollView>
-
-    <Button
-        android:layout_margin="20dp"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/pathInfoStartButton"
+    <TextView
+        android:id="@+id/galleryName"
+        style="@style/ExhibitGalleryName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pathInfoDescription"
-        android:text="@string/pathInfoStartButton" />
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:text="@string/exhibitGalleryName" />
+
+    <ImageView
+        android:id="@+id/exhibitonImg"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/name"
+        android:scaleType="centerCrop"
+        android:src="@drawable/exhibit_example" />
+
+    <TextView
+        android:id="@+id/description"
+        style="@style/ExhibitDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="130dp"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/exhibitonImg"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/exhibitDescription" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_below="@+id/description"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:background="#DBDBDB" />
+
+    <TextView
+        android:id="@+id/question"
+        style="@style/ExhibitQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/exhibitonImg"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="@string/exhibitQuestion" />
+
+    <RadioGroup
+        android:id="@+id/answers"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/checkAnswer1"
+            style="@style/ExhibitQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:text="@string/exhibitAnswer"
+            android:textOff=""
+            android:textOn="" />
+
+        <RadioButton
+            android:id="@+id/checkAnswer2"
+            style="@style/ExhibitQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:text="@string/exhibitAnswer"
+            android:textOff=""
+            android:textOn="" />
+
+        <RadioButton
+            android:id="@+id/checkAnswer3"
+            style="@style/ExhibitQuestion"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:button="@android:color/transparent"
+            android:drawableLeft="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:text="@string/exhibitAnswer"
+            android:textOff=""
+            android:textOn="" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/goFurther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answers"
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:onClick="goFurther"
+        android:text="Przejdź dalej" />
+
+    <Button
+        android:id="@+id/ic_path"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="z" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pathProgress"
+        android:text="Ścieżka zdrowia"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="35dp" 
+        />
+
+    <ProgressBar
+        android:id="@+id/pathProgress"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="130dp"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/ic_path"
+        android:padding="5dp"
+        android:progress="34"
+        android:text="Ścieżka wody: 19%" />
+
+    <Button
+        android:id="@+id/pathClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/pathChooser"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/pathChooser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="y" />
 
 </RelativeLayout>

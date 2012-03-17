@@ -18,7 +18,7 @@ public class PathActivity extends Activity {
     }
     
     public void beginPath(View v) {
-    	Intent i = new Intent(ctx, ExhibitActivity.class);
+    	Intent i = new Intent(ctx, PathBeginActivity.class);
     	startActivity(i);    	
     }
 }

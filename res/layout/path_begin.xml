@@ -5,38 +5,33 @@
     android:background="#ffffff" >
 
     <TextView
-        android:id="@+id/header"
-        style="@style/PathInfoHeader"
+        android:id="@+id/name"
+        style="@style/ExhibitName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:padding="10dp"
-        android:text="@string/pathInfoHeader" />
+        android:text="@string/pathBeginInfo" />
 
     <ScrollView
-        android:id="@+id/pathInfoDescription"
-        android:layout_width="fill_parent"
-        android:layout_height="300dp"
-        android:layout_below="@+id/header"
-        android:scrollbars="vertical" >
+        android:layout_width="wrap_content"
+        android:layout_height="350dp"
+        android:layout_below="@+id/name"
+        android:layout_centerHorizontal="true" >
 
-        <TextView
-            style="@style/PathInfoDescription"
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="10dp"
-            android:text="@string/pathInfoDescription" />
+            android:src="@drawable/map_example" />
     </ScrollView>
 
     <Button
-        android:id="@+id/pathInfoStartButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/pathInfoDescription"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_margin="20dp"
         android:clickable="true"
         android:onClick="beginPath"
-        android:text="@string/pathInfoStartButton" />
+        android:text="Dalej" />
 
 </RelativeLayout>
