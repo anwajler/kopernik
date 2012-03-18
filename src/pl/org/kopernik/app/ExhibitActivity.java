@@ -50,6 +50,10 @@ public class ExhibitActivity extends Activity {
         
         TextView description = (TextView) findViewById(R.id.description);
         description.setText(exhibit.description);
+        
+        TextView name = (TextView) findViewById(R.id.name);
+        name.setText(exhibit.name);
+        
 
 
 
