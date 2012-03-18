@@ -20,7 +20,7 @@
         android:padding="10dp" >
 
         <Button
-            android:id="@+id/top_left"
+            android:id="@+id/water"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_alignParentLeft="true"
@@ -30,7 +30,7 @@
             android:onClick="goToExhibit" />
 
         <Button
-            android:id="@+id/top_right"
+            android:id="@+id/fire"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_alignParentRight="true"
@@ -40,7 +40,7 @@
             android:onClick="goToExhibit" />
 
         <Button
-            android:id="@+id/bottom_left"
+            android:id="@+id/earth"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_alignParentBottom="true"
@@ -50,7 +50,7 @@
             android:onClick="goToExhibit" />
 
         <Button
-            android:id="@+id/bottom_right"
+            android:id="@+id/air"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_alignParentBottom="true"
