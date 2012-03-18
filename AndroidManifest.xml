@@ -6,6 +6,8 @@
 
     <uses-sdk android:minSdkVersion="8" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".KopernikApplication"
         android:icon="@drawable/ic_launcher"
@@ -24,6 +26,7 @@
         <activity android:name=".PathActivity" />
         <activity android:name=".PathBeginActivity" />
         <activity android:name=".PathSummaryActivity" />
+        <activity android:name=".FacebookIntegrationActivity" />
     </application>
 
 </manifest>

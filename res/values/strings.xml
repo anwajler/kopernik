@@ -33,5 +33,9 @@ Rugozy znane są od ordowiku do późnego permu. Swój rozkwit osiągnęły w de
     <!-- path summary -->
     <string name="pathSummaryInfo">Koniec ścieżki.</string>
 	<string name="pathSummarySummary">Podsumowanie.</string>
-        
+    
+	<!-- fb  -->
+
+    <string name="update_status">Uaktualnij status na Facebooku</string>
+    <string name="shareButton">Pokaż znajomym przebytą ścieżkę.</string>	
 </resources>
