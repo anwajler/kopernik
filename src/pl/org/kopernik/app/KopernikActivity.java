@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class KopernikActivity extends Activity {
 	Context ctx;
@@ -33,6 +34,18 @@ public class KopernikActivity extends Activity {
 		 * new pl.org.kopernik.json.Path(); p.addExhibit(e); Log.d("JSON",
 		 * p.returnAaJSON().toString());
 		 */
+		Intent i = getIntent();
+		if (i != null) {
+			Bundle extras = i.getExtras();
+			if (extras != null) {
+				if (extras.containsKey("showToast")) {
+					Toast.makeText(
+							getApplicationContext(),
+							"Informacja o przebytej ścieżce została opublikowana na Facebooku!",
+							Toast.LENGTH_LONG).show();
+				}
+			}
+		}
 	}
 
 	public void goToExhibit(View v) {

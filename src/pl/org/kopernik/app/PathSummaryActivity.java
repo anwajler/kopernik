@@ -16,4 +16,8 @@ public class PathSummaryActivity extends Activity {
         setContentView(R.layout.path_summary);
         ctx = this;
     }
+    
+    public void facebook(View v) {
+    	startActivity(new Intent(ctx, FacebookIntegrationActivity.class));
+    }
 }
