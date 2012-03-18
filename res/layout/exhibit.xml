@@ -114,15 +114,20 @@
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="goFurther"
+        android:background="@color/waterButtonBackgroundColor"
+        android:textColor="@color/waterButtonTextColor"
+        android:padding="20dp"
+        android:layout_margin="10dp"        
         android:text="Przejdź dalej" />
 
-    <Button
+    <ImageView
         android:id="@+id/ic_path"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:text="z" />
+        android:src="@drawable/ic_water"
+        android:layout_margin="10dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -130,7 +135,7 @@
         android:layout_above="@+id/pathProgress"
         android:text="Ścieżka zdrowia"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="35dp" 
+        android:layout_marginLeft="65dp" 
         />
 
     <ProgressBar
@@ -142,6 +147,7 @@
         android:layout_toRightOf="@+id/ic_path"
         android:padding="5dp"
         android:progress="34"
+        android:layout_marginBottom="10dp"
         android:text="Ścieżka wody: 19%" />
 
     <Button

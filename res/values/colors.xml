@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="earthButtonBackgroundColor">#3F9633</color>
+        <color name="earthButtonTextColor">#DBDBDB</color>
+        
+        <color name="waterButtonBackgroundColor">#90C0E2</color>
+        <color name="waterButtonTextColor">#EDEDED</color>        
+</resources>

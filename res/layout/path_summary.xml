@@ -2,7 +2,7 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="#ffffff">
+    android:background="#ffffff" >
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -35,7 +35,6 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/summary"
             android:layout_centerHorizontal="true"
-            android:padding="10dp"
             android:text="5/25" />
 
         <Button
@@ -45,7 +44,10 @@
             android:layout_below="@+id/result"
             android:layout_centerHorizontal="true"
             android:layout_margin="20dp"
-            android:text="Och, wyszeruj mnie proszę!" />
+            android:padding="20dp"
+            android:background="@color/waterButtonBackgroundColor"
+            android:text="Och, wyszeruj mnie proszę!"
+            android:textColor="@color/waterButtonTextColor" />
     </RelativeLayout>
 
 </ScrollView>

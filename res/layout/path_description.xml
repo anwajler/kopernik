@@ -35,6 +35,9 @@
         android:layout_below="@+id/pathInfoDescription"
         android:layout_centerHorizontal="true"
         android:layout_margin="20dp"
+        android:padding="20dp"
+        android:background="@color/waterButtonBackgroundColor"
+        android:textColor="@color/waterButtonTextColor"        
         android:clickable="true"
         android:onClick="beginPath"
         android:text="@string/pathInfoStartButton" />
