@@ -12,6 +12,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.CheckBox;
+import android.widget.RadioButton;
 import android.widget.TextView;
 
 
@@ -36,6 +38,18 @@ public class ExhibitActivity extends Activity {
         
         question = (TextView) findViewById(R.id.question);
         question.setText(exhibit.question.question_text);
+        
+        RadioButton checkAnswer1 = (RadioButton) findViewById(R.id.checkAnswer1);
+        RadioButton checkAnswer2 = (RadioButton) findViewById(R.id.checkAnswer2);
+        RadioButton checkAnswer3 = (RadioButton) findViewById(R.id.checkAnswer3);
+        
+        checkAnswer1.setText(exhibit.question.answers.get(0));
+        checkAnswer2.setText(exhibit.question.answers.get(1));
+        checkAnswer3.setText(exhibit.question.answers.get(2));
+
+
+
+        
         ctx = this;
     }
     
