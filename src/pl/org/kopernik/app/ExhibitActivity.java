@@ -16,6 +16,7 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class ExhibitActivity extends Activity {
@@ -66,6 +67,17 @@ public class ExhibitActivity extends Activity {
     }
     
     public void goFurther(View v) {
+    	if(exhibit.question.valid_answer == 0 && ((RadioButton)findViewById(R.id.checkAnswer1)).isChecked()) {
+    		Toast.makeText(ctx, "Juhuu! Dobra odpowiedź!", Toast.LENGTH_SHORT).show();
+    	} else if (exhibit.question.valid_answer == 1 && ((RadioButton)findViewById(R.id.checkAnswer2)).isChecked()) {
+    		Toast.makeText(ctx, "Juhuu! Dobra odpowiedź!", Toast.LENGTH_SHORT).show();
+    	} else if (exhibit.question.valid_answer == 2 && ((RadioButton)findViewById(R.id.checkAnswer3)).isChecked()) {
+    		Toast.makeText(ctx, "Juhuu! Dobra odpowiedź!", Toast.LENGTH_SHORT).show();
+    	} else {
+    		Toast.makeText(ctx, "Zła odpowiedź, spróbuj następnym razem!", Toast.LENGTH_SHORT).show();
+    	}
+    	
+    	
     	if(isLast()){
     		Intent i = new Intent(ctx, PathSummaryActivity.class);
     		startActivity(i);
