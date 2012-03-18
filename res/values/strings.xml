@@ -24,13 +24,14 @@ Rugozy znane są od ordowiku do późnego permu. Swój rozkwit osiągnęły w de
     <string name="exhibitDetailsBtn">Przejdź do szczegółów</string>
     <string name="exhibitQuestion">Kiedy pojawia się pierwszy przebiśnieg?</string>
     <string name="exhibitAnswer">1. marca</string>
-
+	<string name="ok_button_label">OK</string>
+    
+    
     <!-- path begin -->
     <string name="pathBeginInfo">Wejdź po schodach na górę, na pierwszym piętrze skręć w lewo i podejdź do wielkiej czerwonej piłki.</string>
 
     <!-- path summary -->
     <string name="pathSummaryInfo">Koniec ścieżki.</string>
 	<string name="pathSummarySummary">Podsumowanie.</string>
-    
-    
+        
 </resources>

@@ -160,6 +160,7 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_margin="10dp"
-        android:background="@drawable/arrow_up" />
-
+        android:background="@drawable/arrow_up"
+        android:clickable="true"
+        android:onClick="exhibitList" />
 </RelativeLayout>

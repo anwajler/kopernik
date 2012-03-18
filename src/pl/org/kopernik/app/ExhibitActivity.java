@@ -1,7 +1,9 @@
 package pl.org.kopernik.app;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -27,4 +29,18 @@ public class ExhibitActivity extends Activity {
     	Intent i = new Intent(ctx, ExhibitDetailsActivity.class);
     	startActivity(i);    	
     }    
+    
+    public void exhibitList(View v) {
+    	String items[] = {"item1", "item2"};
+    	new AlertDialog.Builder(this)
+        .setSingleChoiceItems(items, 0, null)
+        .setPositiveButton(R.string.ok_button_label, new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                dialog.dismiss();
+                int selectedPosition = ((AlertDialog)dialog).getListView().getCheckedItemPosition();
+                // Do something useful withe the position of the selected radio button
+            }
+        })
+        .show();    	
+    }
 }
