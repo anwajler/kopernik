@@ -1,24 +1,5 @@
-[
-    {
+[    {
         "id": 1,
-        "question": {
-            "valid_answer": 0,
-            "answers": [
-                "A. Turbina Francisa",
-                "B. Turbina Kaplana",
-                "C. Turbina Peltona"
-            ],
-            "question_text": "Która z turbin jest najbardziej wydajna?"
-        },
-        "gallery": 1,
-        "description": "Przejdź do Galerii Korzenie Cywilizacji znajdującej się na przeciwko wejścia . Gdy dojdziesz do szklanego ‘krateru’ skręć w prawo i idź do końca. Znajdziesz eksponat wodny, a w nim Trzy Turbiny. Sprawdź ile energii uda Ci się uzyskać.",
-        "info": "",
-        "name": "Trzy Turbiny",
-        "path_id": 1
-    }
-,
-    {
-        "id": 2,
         "question": {
             "valid_answer": 1,
             "answers": [
@@ -30,9 +11,27 @@
         },
         "gallery": 1,
         "description": "Spójrz w lewo, znajdź eksponat Łodzią pod górę. Przeprowadź łódkę przez śluzę. ",
-        "info": "",
+        "info": "Model działającej śluzy wodnej, służącej do pokonywania różnic poziomu wody przez jednostki pływające np. jachty, kajaki, statki.\nKomora śluzy odgradzana jest od zbiorników wodnych dwuskrzydłowymi wrotami. Możesz przepłynąć żaglówką, otwierając i zamykając wrota we właściwej kolejności.",
         "name": "Łodzią pod górę",
         "path_id": 1
+    }
+,
+    {
+        "id": 2,
+        "question": {
+            "valid_answer": 2,
+            "answers": [
+                "A. Turbina Francisa",
+                "B. Turbina Kaplana",
+                "C. Turbina Peltona"
+            ],
+            "question_text": "Która z turbin jest najbardziej wydajna?"
+        },
+        "gallery": 1,
+        "description": "Przejdź do Galerii Korzenie Cywilizacji znajdującej się na przeciwko wejścia . Gdy dojdziesz do szklanego ‘krateru’ skręć w prawo i idź do końca. Znajdziesz eksponat wodny, a w nim Trzy Turbiny. Sprawdź ile energii uda Ci się uzyskać.",
+        "info": "Turbina to urządzenie zamieniające energię przemieszczającego się płynu (cieczy lub gazu) na energię mechaniczną ruchu obrotowego. Eksponat przedstawia działanie 3 turbin skonstruowanych przez 3 wynalazców.\n\nTurbina Jamesa B. Francisa. Łopatki kierują strumień wody po torze przypominającym skorupę ślimaka. Woda przyspiesza, a opuszczając turbinę, siłą reakcji obraca jej łopatki.\nTurbina Viktora Kaplana. Jest podobna do turbiny Francisa, jednak zastosowano w niej elementu prowadzący wodę, którego kształt przypomina śrubę okrętową.\nTurbina Lestera Peltona. W przeciwieństwie do poprzednich turbin, które działają na zasadzie reakcji, w tej woda uderza wprost na łopatki o kształcie czerpaków. Dzięki temu struga wody oddaje prawie całą energię turbinie.",
+        "name": "Trzy Turbiny, trzech wynalazców",
+        "path_id": 1		
     }
 ,
     {
@@ -48,7 +47,7 @@
         },
         "gallery": 2,
         "description": "Wejdź na górę, znajdź Koło chaosu. Sprawdź, co oznacza “efekt motyla”.",
-        "info": "",
+        "info": "Koło służące do obserwacji ruchów chaotycznych, nazywane kołem Lorenza. Urządzenie ma formę obręczy zawartej w nachylonej do pionu płaszczyźnie i mogącej obracać się z niewielkimi oporami wokół swojej osi. Do obręczy przymocowane są wiaderka, każde z nich ma otwór w dnie. Ponad obręczą, nad jej osią, znajdują się wyloty rurek, z którego wycieka ciecz. Wlewa się ona do wiaderek, częściowo je wypełnia, ale stale także wypływa przez otwory w ich dnach.\nDzięki wielości przypadkowych czynników sumaryczny moment siły wywierany na koło jest zmienny, a jego wartości nie daje się przewidzieć. W konsekwencji układ cechuje swoisty indeterminizm: koło jest w nieustannym ruchu zmiennym, obraca się wolno, to znów szybciej, hamuje obroty, zmienia ich kierunek, znów hamuje, przyspiesza. Ruch koła jest chaotyczny w znaczeniu, jaki temu przymiotnikowi nadaje teoria chaosu.",
         "name": "Koło chaosu",
         "path_id": 1
     }
@@ -66,7 +65,7 @@
         },
         "gallery": 2,
         "description": "Przejdź korytarzem za unoszącym się biało-czerwonym balonem. Obok rzeźby człowieka z psem znajdziesz eksponat artystyczny Icy Bodies. Podziwiaj wzór utworzony przez bryłki suchego lodu.",
-        "info": "",
+        "info": "Eksponat artystyczny autorstwa Shawn Lani. Na powierzchnię ciemnogranatowej cieczy wypełniającej duże okrągłe naczynie wrzucane są bryłki suchego lodu, czyli zestalonego ditlenku węgla. Jego gwałtowna sublimacja i towarzyszące jej lokalne ochłodzenie powietrza powodują tworzenie się szybko i chaotycznie zmieniających się pasemek mgły. \nW bryłkach powstają kratery i szczeliny, z których wydobywa się gaz. Na skutek zjawiska odrzutu bryłki przemieszczają się po powierzchni cieczy i obracają. Sublimując, bryłki stopniowo zanikają. Nieoczekiwane ruchy bryłek ditlenku węgla potrafią zaskoczyć. Dmuchnij w szczeliny pod szklaną płytą i obserwuj taniec suchego lodu.",
         "name": "Icy bodies",
         "path_id": 1
     }
@@ -84,7 +83,7 @@
         },
         "gallery": 2,
         "description": "Idź w głąb galerii Świat w Ruchu wzdłuż szklanej ściany. Znajdź eksponat Jak wykopać dołek w wodzie? Sprawdź jak zmienia się powierzchnia cieczy.",
-        "info": "",
+        "info": "Eksponat to prostopadłościenne naczynie z cieczą umieszczone na obrotowej podstawie. Możesz wprawić je w ruch obrotowy i obserwować, jak swobodna powierzchnia cieczy przybiera kształt paraboloidy. Odkształcenie powierzchni cieczy jest tym większe, im szybciej obraca się naczynie. \nTworzenie wklęsłej powierzchni można wyjaśnić działaniem siły pozornej zwanej odśrodkową siłą bezwładności, działającej na elementy układu obracającego się. Możesz dostrzec także dodatkowe efekty związane z wirowaniem cieczy wewnątrz akwarium, ich wywołanie w dużej mierze zależy od sposobu rozkręcania naczynia.",
         "name": "Jak wykopać dołek w wodzie?",
         "path_id": 1
     }
@@ -102,7 +101,7 @@
         },
         "gallery": 2,
         "description": "Rozejrzyj się wokół i znajdź eksponat Fontanny w Szkle. Sprawdź jak dźwięk sprawia, że wytryskują fontanny.",
-        "info": "",
+        "info": "Eksponat jest urządzeniem do demonstracji dźwiękowej fali stojącej będącym współczesną wersją rury Kundta. Przezroczystą rurę umocowano poziomo, przy jednym z jej końców umieszczając głośnik, drugi koniec zamykając sztywną ścianką. Na dnie rury znajduje się warstwa wody. Możesz zmienić wysokość i głośność dźwięku wydawanego przez głośnik. Gdy dobierzesz odpowiednią częstotliwość fali dźwiękowej, zachodzi zjawisko rezonansu i w rurze wytwarza się fala stojąca. \nJej charakterystyczną cechą jest występowanie miejsc, w którym powietrze nie drga (węzłów) oraz miejsc, gdzie drga najsilniej (strzałek). Obecność fali stojącej objawia się tym, że woda zbiera się w węzłach fali, będąc wymiatana z obszarów silnych przemieszczeń powietrza. Zmiana głośności wpływa na wysokość fal. Fale stojące mogą być tak silne, że powierzchnia wody może ulec przerwaniu - wówczas woda tryska w górę, tworząc lokalną fontannę. Przerwanie powierzchni cieczy oznacza, że drgania były tak silne, że przekroczona została bariera liniowości w nakładaniu się fal biegnących w rurze.",
         "name": "Fontanny w szkle",
         "path_id": 1
     }
@@ -120,7 +119,7 @@
         },
         "gallery": 2,
         "description": "Znajdź eksponat Łódź podwodna przy szklanym kraterze. Zostań kapitanem i steruj zanurzeniem łodzi.",
-        "info": "",
+        "info": "Zanurzony w zbiorniku z wodą model łodzi podwodnej przystosowany jest do demonstrowania zanurzania się i wynurzania się łodzi. Model zawiera dwa zbiorniki balastowe: dziobowy i rufowy. Gdy zbiorniki zawierają wodę, model pływa całkowicie zanurzony lub spoczywa na dnie naczynia. \nGdy wprowadzisz do zbiorników powietrze, łódź staje się lżejsza i wynurza się. Sterując zanurzaniem i wynurzaniem się łodzi, możesz obserwować działanie dwóch odziaływujących na nią sił: jej ciężaru i siły wyporu.",
         "name": "Łódź podwodna",
         "path_id": 1
     }
@@ -138,7 +137,7 @@
         },
         "gallery": 2,
         "description": "Idąc w lewą stronę od łodzi podwodnej, znajdziesz eksponat To nie przelewki. Dowiedz się, która ciesz przepływa najszybciej w klepsydrach.",
-        "info": "",
+        "info": "Eksponat to zestaw czterech klepsydr zawierających ciecze o różnej lepkości: miód, olej i sok pomarańczowy. Odwracając klepsydry możesz obserwować przepływ cieczy i dostrzec różnice w tempie przepływu.",
         "name": "To nie przelewki",
         "path_id": 1
     }
@@ -156,7 +155,7 @@
         },
         "gallery": 3,
         "description": "Przejdź do galerii Człowiek i Środowisko znajdującej się na przeciwko galerii Świat w Ruchu, za windami. Spójrz w prawo - zobaczysz drewnianą postać zamyślonego człowieka. Za czarną ścianą, na której siedzi, znajdziesz eksponat: ile wody można z Ciebie wycisnąć?",
-        "info": "",
+        "info": "To urządzenie zważy Cię, a następnie wtłoczy do przezroczystego zbiornika wodę w takiej ilości, jaka zawarta jest w Twoim organizmie. Przyjęto, że masa wody zawartej w organizmie człowieka stanowi przeciętnie około 60% masy jego ciała. \n(W istocie zawartość wody u noworodka przekracza 70%, następnie maleje nawet do 45%.)",
         "name": "Ile wody można z Ciebie wycisnąć?",
         "path_id": 1
     }
@@ -174,7 +173,7 @@
         },
         "gallery": 3,
         "description": "Przy oknie z widokiem na Wisłę znajdziesz eksponat Woda dla życia, symbolizujący proces uzdatniania wody.",
-        "info": "",
+        "info": "Eksponat to instalacja wodna umieszczona na niskiej ławie, na której zamontowano 6 stanowisk obrazujących procesy związane z obiegiem wody w przyrodzie oraz z jej pozyskiwaniem przez człowieka. Możesz wprowadzić wodę do eksponatu, czerpiąc ją wiaderkiem z modelu studni. \nWoda poddawana jest procesowi uzdatniania, przepływa przez filtry żwirowy, węglowy i piaskowy, które pochłaniające zanieczyszczenia. Woda jest także natleniana i symulowane jest jej chlorowanie i ozonowanie.",
         "name": "Woda dla życia",
         "path_id": 1
     }

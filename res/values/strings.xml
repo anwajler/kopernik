@@ -9,6 +9,11 @@
     <string name="welcomeFirePathName">Ogień</string>
     <string name="welcomeEarthPathName">Ziemia</string>
     <string name="welcomeAirPathName">Powietrze</string>
+    
+    <string name="water_path_description">Co kojarzy Ci się z wodą? Fale? Para wodna? Ciecz? Tama? Ścieżka Wody poprowadzi Cię przez Centrum Nauki Kopernik idąc tropem eksponatów nawiązujących do tych pojęć.</string>
+    <string name="fire_path_description">Co kojarzy Ci się z ogniem? Płomień? Światło? Ciepło? Energia? Ścieżka Ognia poprowadzi Cię przez Centrum Nauki Kopernik idąc tropem eksponatów nawiązujących do tych pojęć.</string>
+    <string name="earth_path_description">Co kojarzy Ci się z ziemią? Grawitacja? Wykopaliska? Trzęsienie ziemi? Ścieżka Ziemi poprowadzi Cię przez Centrum Nauki Kopernik idąc tropem eksponatów nawiązujących do tych pojęć. </string>
+    <string name="air_path_description">Co kojarzy Ci się z powietrzem? Wiatr? Przestrzeń? Tornado?  Ścieżka Powietrza poprowadzi Cię przez Centrum Nauki Kopernik idąc tropem eksponatów nawiązujących do tych pojęć. </string>
 
     <!-- path info -->
     <string name="pathInfoHeader">Opis wybranej ścieżki</string>

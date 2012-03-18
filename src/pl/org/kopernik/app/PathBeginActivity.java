@@ -19,6 +19,7 @@ public class PathBeginActivity extends Activity {
     
     public void beginPath(View v) {
     	Intent i = new Intent(ctx, ExhibitActivity.class);
+    	i.putExtra("exhibitNumber", 0);
     	startActivity(i);    	
     }
 }
