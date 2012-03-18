@@ -10,6 +10,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.EventLogTags.Description;
 import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
@@ -46,6 +47,9 @@ public class ExhibitActivity extends Activity {
         checkAnswer1.setText(exhibit.question.answers.get(0));
         checkAnswer2.setText(exhibit.question.answers.get(1));
         checkAnswer3.setText(exhibit.question.answers.get(2));
+        
+        TextView description = (TextView) findViewById(R.id.description);
+        description.setText(exhibit.description);
 
 
 
