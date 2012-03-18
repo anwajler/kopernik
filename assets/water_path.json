@@ -1,0 +1,181 @@
+[
+    {
+        "id": 1,
+        "question": {
+            "valid_answer": 0,
+            "answers": [
+                "A. Turbina Francisa",
+                "B. Turbina Kaplana",
+                "C. Turbina Peltona"
+            ],
+            "question_text": "Która z turbin jest najbardziej wydajna?"
+        },
+        "gallery": 1,
+        "description": "Przejdź do Galerii Korzenie Cywilizacji znajdującej się na przeciwko wejścia . Gdy dojdziesz do szklanego ‘krateru’ skręć w prawo i idź do końca. Znajdziesz eksponat wodny, a w nim Trzy Turbiny. Sprawdź ile energii uda Ci się uzyskać.",
+        "info": "",
+        "name": "Trzy Turbiny",
+        "path_id": 1
+    }
+,
+    {
+        "id": 2,
+        "question": {
+            "valid_answer": 1,
+            "answers": [
+                "A. Podnieść poziom wody w śluzie i wpłynąć do niej",
+                "B. Obniżyć poziom wody w śluzie  i wpłynąć do niej",
+                "C. Otworzyć równocześnie prawe i lewe “drzwi” śluzy"
+            ],
+            "question_text": "Co musisz zrobić, by przepłynąć łódką na wyższy poziom wody?"
+        },
+        "gallery": 1,
+        "description": "Spójrz w lewo, znajdź eksponat Łodzią pod górę. Przeprowadź łódkę przez śluzę. ",
+        "info": "",
+        "name": "Łodzią pod górę",
+        "path_id": 1
+    }
+,
+    {
+        "id": 3,
+        "question": {
+            "valid_answer": 2,
+            "answers": [
+                "A. W lewo",
+                "B. W prawo",
+                "C. W obie"
+            ],
+            "question_text": "W którą stronę kręci się koło?"
+        },
+        "gallery": 2,
+        "description": "Wejdź na górę, znajdź Koło chaosu. Sprawdź, co oznacza “efekt motyla”.",
+        "info": "",
+        "name": "Koło chaosu",
+        "path_id": 1
+    }
+,
+    {
+        "id": 4,
+        "question": {
+            "valid_answer": 2,
+            "answers": [
+                "A. Zestalony dwutlenek siarki",
+                "B. Zestalony ditlenek wodoru",
+                "C. Zestalony ditlenek węgla"
+            ],
+            "question_text": "Co to jest suchy lód?"
+        },
+        "gallery": 2,
+        "description": "Przejdź korytarzem za unoszącym się biało-czerwonym balonem. Obok rzeźby człowieka z psem znajdziesz eksponat artystyczny Icy Bodies. Podziwiaj wzór utworzony przez bryłki suchego lodu.",
+        "info": "",
+        "name": "Icy bodies",
+        "path_id": 1
+    }
+,
+    {
+        "id": 5,
+        "question": {
+            "valid_answer": 0,
+            "answers": [
+                "A. Parabola",
+                "B. Hiberbola",
+                "C. Lej"
+            ],
+            "question_text": "Jaki kształt ma wgłębienie w wodzie?"
+        },
+        "gallery": 2,
+        "description": "Idź w głąb galerii Świat w Ruchu wzdłuż szklanej ściany. Znajdź eksponat Jak wykopać dołek w wodzie? Sprawdź jak zmienia się powierzchnia cieczy.",
+        "info": "",
+        "name": "Jak wykopać dołek w wodzie?",
+        "path_id": 1
+    }
+,
+    {
+        "id": 6,
+        "question": {
+            "valid_answer": 0,
+            "answers": [
+                "A. Fale dźwiękowe",
+                "B. Siła mechaniczna",
+                "C. Grawitacja"
+            ],
+            "question_text": "Co powoduje powstawanie fontann?"
+        },
+        "gallery": 2,
+        "description": "Rozejrzyj się wokół i znajdź eksponat Fontanny w Szkle. Sprawdź jak dźwięk sprawia, że wytryskują fontanny.",
+        "info": "",
+        "name": "Fontanny w szkle",
+        "path_id": 1
+    }
+,
+    {
+        "id": 7,
+        "question": {
+            "valid_answer": 2,
+            "answers": [
+                "A. Dwoma",
+                "B. Trzema",
+                "C. Czterema"
+            ],
+            "question_text": "Iloma przyciskami sterujesz łodzią podwodną?"
+        },
+        "gallery": 2,
+        "description": "Znajdź eksponat Łódź podwodna przy szklanym kraterze. Zostań kapitanem i steruj zanurzeniem łodzi.",
+        "info": "",
+        "name": "Łódź podwodna",
+        "path_id": 1
+    }
+,
+    {
+        "id": 8,
+        "question": {
+            "valid_answer": 0,
+            "answers": [
+                "A. Miód",
+                "B. Sok pomarańczowy",
+                "C. Olej"
+            ],
+            "question_text": "Która ciecz jest najbardziej lepka?"
+        },
+        "gallery": 2,
+        "description": "Idąc w lewą stronę od łodzi podwodnej, znajdziesz eksponat To nie przelewki. Dowiedz się, która ciesz przepływa najszybciej w klepsydrach.",
+        "info": "",
+        "name": "To nie przelewki",
+        "path_id": 1
+    }
+,
+    {
+        "id": 9,
+        "question": {
+            "valid_answer": 1,
+            "answers": [
+                "A. W tkance tłuszczowej",
+                "B. W płucach i w sercu",
+                "C. W nerkach"
+            ],
+            "question_text": "Ile wody można z Ciebie wycisnąć?"
+        },
+        "gallery": 3,
+        "description": "Przejdź do galerii Człowiek i Środowisko znajdującej się na przeciwko galerii Świat w Ruchu, za windami. Spójrz w prawo - zobaczysz drewnianą postać zamyślonego człowieka. Za czarną ścianą, na której siedzi, znajdziesz eksponat: ile wody można z Ciebie wycisnąć?",
+        "info": "",
+        "name": "Ile wody można z Ciebie wycisnąć?",
+        "path_id": 1
+    }
+,
+    {
+        "id": 10,
+        "question": {
+            "valid_answer": 2,
+            "answers": [
+                "A. 50%",
+                "B. 66%",
+                "C. 75%"
+            ],
+            "question_text": "Ile procent powierzchni Ziemi pokrywa woda?"
+        },
+        "gallery": 3,
+        "description": "Przy oknie z widokiem na Wisłę znajdziesz eksponat Woda dla życia, symbolizujący proces uzdatniania wody.",
+        "info": "",
+        "name": "Woda dla życia",
+        "path_id": 1
+    }
+]

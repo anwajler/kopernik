@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 
 
@@ -22,7 +23,8 @@ public class ExhibitActivity extends Activity {
     
     public void goFurther(View v) {
     	Intent i = new Intent(ctx, PathSummaryActivity.class);
-    	startActivity(i);    	
+    	startActivity(i);
+    	Log.d("goFurther", KopernikApplication.waterPath.path.exhibits.get(0).name);
     }
     
     public void goToDetails(View v) {

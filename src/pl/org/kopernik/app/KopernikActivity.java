@@ -1,9 +1,15 @@
 package pl.org.kopernik.app;
 
+import java.util.ArrayList;
+
+import pl.org.kopernik.json.Exhibit;
+import pl.org.kopernik.json.Quize;
+import pl.org.kopernik.json.WaterPath;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
