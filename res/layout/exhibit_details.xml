@@ -3,11 +3,9 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="#ffffff" >
-
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent" >
-
         <TextView
             android:id="@+id/name"
             style="@style/ExhibitName"
@@ -17,5 +15,4 @@
             android:padding="10dp"
             android:text="@string/exhibitName" />
     </RelativeLayout>
-
 </ScrollView>
