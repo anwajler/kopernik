@@ -151,7 +151,9 @@
         android:layout_alignParentBottom="true"
         android:layout_toLeftOf="@+id/pathChooser"
         android:layout_margin="10dp"
-        android:background="@drawable/exit" />
+        android:background="@drawable/exit"
+        android:clickable="true"
+        android:onClick="exitPath" />
 
     <Button
         android:id="@+id/pathChooser"

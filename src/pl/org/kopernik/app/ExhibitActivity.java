@@ -43,4 +43,22 @@ public class ExhibitActivity extends Activity {
         })
         .show();    	
     }
+    
+    public void exitPath(View v) {
+    	AlertDialog.Builder builder = new AlertDialog.Builder(this);
+    	builder.setMessage("Czy na pewno chcesz wyjść ze ścieżki?")
+    	       .setCancelable(false)
+    	       .setPositiveButton("Tak", new DialogInterface.OnClickListener() {
+    	           public void onClick(DialogInterface dialog, int id) {
+    	                startActivity(new Intent(ctx, KopernikActivity.class));
+    	           }
+    	       })
+    	       .setNegativeButton("Nie", new DialogInterface.OnClickListener() {
+    	           public void onClick(DialogInterface dialog, int id) {
+    	                dialog.cancel();
+    	           }
+    	       });
+    	AlertDialog alert = builder.create();
+    	alert.show();
+    }    
 }
